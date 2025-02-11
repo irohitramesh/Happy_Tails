@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 1100px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: black; 
+}
+
+.signup-container {
+    background-image: url("../PICTURES/DOGblur.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
+    
+    width: 600px;
+    height: 1035px;
+    position: relative;
+    z-index: 1; 
+}
+
+.signup-box p {
+    
+   
+    
+    
+    padding: 0;
+    
+    color: white;
+}
+
+.signup-box h2 {
+
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.signup-box h2:hover{
+    color: #ea1538;
+    transition: 0.3s;
+}
+.signup-box a{
+    padding: 2%;
+    color:white;
+    text-decoration: none;
+}
+
+.signup-box label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white; /* White label text */
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="password"],
+.signup-box input[type="email"],
+.signup-box input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333; /* Darker border to blend with the black theme */
+    border-radius: 5px;
+    background-color: #2C2C2C; /* Dark input background */
+    color: white; /* White text inside input fields */
+}
+
+.signup-box button {
+    width: 100%;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-box button:hover {
+    background-color: #2C2C2C;
+    color: #ea1538;
+    transition:0.3s;
+}
